@@ -1,6 +1,6 @@
 # 🧠 ML Mini Projects
 
-This repository contains small machine learning projects that I built to learn core ML concepts by implementing them from scratch.
+This repository contains small machine learning projects that I built to learn core ML concepts
 
 ---
 
