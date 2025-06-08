@@ -31,5 +31,35 @@ The model successfully learns a linear relationship between years of experience 
 
 ---
 
+## 📌 Project 2: California Housing Price Prediction using SGDRegressor (Sklearn)
+
+### 🔍 Description
+This project uses Stochastic Gradient Descent Regression from sklearn to predict California housing prices based on multiple features. The data is normalized using StandardScaler, and a linear model is trained to capture general pricing trends.
 
 
+### 📊 Dataset
+California Housing dataset from sklearn.datasets.fetch_california_housing, containing features such as:
+
+-Median Income (MedInc)
+
+-House Age (HouseAge)
+
+-Average Rooms (AveRooms)
+
+-Average Bedrooms (AveBedrms)
+
+-Population
+
+-Average Occupancy (AveOccup)
+
+-Latitude
+
+-Longitude
+
+### ⚙️ Features
+-Data normalization using StandardScaler
+-Linear regression with SGDRegressor
+-Comparison of predicted vs actual housing prices
+
+### ✅ Result
+The linear SGD model captures general trends but is limited by the linearity assumption, leading to noticable prediction errors on complex housing price data (See Conclusion for more insight).
