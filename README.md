@@ -63,3 +63,38 @@ California Housing dataset from sklearn.datasets.fetch_california_housing, conta
 
 ### ✅ Result
 The linear SGD model captures general trends but is limited by the linearity assumption, leading to noticable prediction errors on complex housing price data (See Conclusion for more insight).
+
+---
+
+📌 Project: Titanic Survival Prediction using Logistic Regression (Sklearn)
+🔍 Description
+This project applies logistic regression to predict Titanic passenger survival based on key features. 
+
+📊 Dataset
+Titanic passenger data from Kaggle’s Titanic competition, including features such as:
+
+Passenger Class (Pclass)
+
+Sex
+
+Age
+
+Number of Siblings/Spouses aboard (SibSp)
+
+Number of Parents/Children aboard (Parch)
+
+Fare ($)
+
+⚙️ Features
+
+Data cleaning with median imputation for missing Age and Fare
+
+Encoding Sex as binary numeric
+
+Data normalization using StandardScaler
+
+Logistic regression model training and validation with train/test split
+
+Feature importance analysis using model coefficients
+
+Model evaluation using accuracy, precision, recall, F1-score, and confusion matrix visualization
